@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">IBM Android starter application</string>
+    <string name="signInSignUp">Sign In/Sign up</string>
+    <string name="phoneNumber">Phone number</string>
+    <string name="tnc"><![CDATA[By signing in you agree to out T&C]]></string>
+    <string name="proceed">Proceed</string>
+    <string name="confirmation">Confirmation</string>
+    <string name="otpSentMessage">OTP has been sent to your registered mobile number</string>
+    <string name="enterOtp">Enter OTP</string>
+</resources>

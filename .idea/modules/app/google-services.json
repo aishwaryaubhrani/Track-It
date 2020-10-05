@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1045541621781",
+    "firebase_url": "https://track-it-db291.firebaseio.com",
+    "project_id": "track-it-db291",
+    "storage_bucket": "track-it-db291.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1045541621781:android:abdfb1b203cd2b9e5fbe1c",
+        "android_client_info": {
+          "package_name": "com.ibm.androidapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1045541621781-s50c5ikk2l881ubt7mh0gp6dipddohgg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ibm.androidapp",
+            "certificate_hash": "730d58110ad3804870908aa89f7bd2bf5cc58374"
+          }
+        },
+        {
+          "client_id": "1045541621781-0b1vdhu7gcjeke7ctslehjvmtpec5io9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEzMY2NgglRxI0iBVASklFMLxaOSNybL4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1045541621781-0b1vdhu7gcjeke7ctslehjvmtpec5io9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
