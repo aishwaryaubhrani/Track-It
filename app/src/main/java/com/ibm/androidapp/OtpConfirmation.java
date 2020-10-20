@@ -83,7 +83,7 @@ public class OtpConfirmation extends AppCompatActivity {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if(task.isSuccessful()){
-                    Intent intent = new Intent(OtpConfirmation.this, HomePage.class);
+                    Intent intent = new Intent(OtpConfirmation.this, Choice.class);
                     startActivity(intent);
                     finish();
                 }
