@@ -11,7 +11,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".Track"></activity>
+        <activity android:name=".NumberToTrack"></activity>
+        <activity android:name=".Track" />
         <activity android:name=".Choice" />
         <activity android:name=".HomePage" />
         <activity android:name=".OtpConfirmation" />

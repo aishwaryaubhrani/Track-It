@@ -1,5 +1,4 @@
 package com.ibm.androidapp;
-
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
 
@@ -10,7 +9,6 @@ import android.widget.EditText;
 
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-
 public class HomePage extends AppCompatActivity {
 
     private EditText enterConsignmentNumber;
@@ -82,9 +80,7 @@ public class HomePage extends AppCompatActivity {
                 databaseReference = firebaseDatabase.getReference();
                 ConsignmentDetails consignmentDetails = new ConsignmentDetails(clientName, clientNumber, driverName, vehicleNumber,
                         itemWeight, deliveryAddress);
-
                 databaseReference.child(consignmentNumber).setValue(consignmentDetails);
-
             }
         });
     }

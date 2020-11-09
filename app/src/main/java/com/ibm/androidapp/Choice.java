@@ -28,7 +28,7 @@ private Button track;
         track.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(Choice.this,Track.class);
+                Intent i = new Intent(Choice.this,NumberToTrack.class);
                 startActivity(i);
             }
         });
