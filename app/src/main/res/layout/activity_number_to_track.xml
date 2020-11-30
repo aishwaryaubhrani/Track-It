@@ -69,5 +69,16 @@
             android:text="@string/proceed" />
 
     </LinearLayout>
-
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_marginTop="10dp"
+    android:id="@+id/text1"
+    android:textAlignment="center"
+    android:gravity="center"
+    android:textColor="@android:color/black"
+    android:fontFamily="@font/asul"
+    android:textStyle="bold"
+    android:textSize="14dp"
+    android:text="Click here to scan the QR Code"/>
 </LinearLayout>
