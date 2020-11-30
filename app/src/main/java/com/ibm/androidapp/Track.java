@@ -3,8 +3,10 @@ package com.ibm.androidapp;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
@@ -34,7 +36,6 @@ ConsignmentDetails cd;
         SharedPreferences sharedPreferences = getSharedPreferences("PA",0);
         String trackingid1 = sharedPreferences.getString("trackingid", String.valueOf(1));
         display.setText("  Consignment ID : "+trackingid1);
-
         listview = findViewById(R.id.listview);
         firebaseDatabase = FirebaseDatabase.getInstance();
         databaseReference= firebaseDatabase.getReference();
@@ -60,6 +61,14 @@ ConsignmentDetails cd;
 
             }
         });
+
+        display.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Track.this, MapsActivity.class));
+            }
+        });
+
 
     }
 }

@@ -7,4 +7,5 @@
     <string name="confirmation">Confirmation</string>
     <string name="otpSentMessage">OTP has been sent to your registered mobile number</string>
     <string name="enterOtp">Enter OTP</string>
+    <string name="title_activity_maps">Map</string>
 </resources>
