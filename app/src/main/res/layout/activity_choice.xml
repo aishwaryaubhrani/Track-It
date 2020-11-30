@@ -7,10 +7,23 @@
     android:orientation="vertical"
     android:gravity="center"
     tools:context=".Choice">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Track It"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:fontFamily="@font/asul"
+        android:layout_marginBottom="20dp"
+        android:textSize="35sp"/>
+
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="420dp"
+        android:gravity="bottom"
         android:layout_marginHorizontal="16dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
@@ -30,7 +43,8 @@
         <Button
             android:id="@+id/add"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
             android:background="@drawable/proceed_button"
             android:textAllCaps="false"
             android:textColor="@android:color/white"
@@ -40,7 +54,7 @@
         <TextView
             android:id="@+id/or"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
             android:layout_weight="1"
@@ -52,9 +66,10 @@
         <Button
             android:id="@+id/track"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:background="@drawable/proceed_button"
             android:textAllCaps="false"
+            android:layout_weight="1"
             android:textColor="@android:color/white"
             android:fontFamily="@font/roboto"
             android:text="Track Consignment" />
