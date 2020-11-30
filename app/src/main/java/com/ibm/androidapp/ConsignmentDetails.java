@@ -19,6 +19,10 @@ public class ConsignmentDetails {
         this.deliveryAddress = deliveryAddress;
     }
 
+    public ConsignmentDetails() {
+
+    }
+
     public String getClientName() {
         return clientName;
     }
